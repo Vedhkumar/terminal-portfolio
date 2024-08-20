@@ -20,4 +20,7 @@ body {
   .icon-sm {
     @apply w-2.5 h-2.5;
   }
+  .triangle {
+    @apply h-0 w-0 border-y-[16px]  -translate-x-[0.4px] border-y-transparent border-l-[16px];
+  }
 }
